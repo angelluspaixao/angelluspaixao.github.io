@@ -1,0 +1,28 @@
+Site portfólio
+
+-Conteúdo:
+•Home;
+•Portfólio;
+•Experiências;
+•Contato;
+
+-Funcionalidades:
+•Responsivo
+•Rolagem dinâmica (site todo acessível na rolagem)
+
+
+Home:
+** Menu -> Os links para a navegação do meu portfolio
+** Um pequeno texto sobre o próprio (Falar de onde sou, meu nome, o que faço)
+** Uma figura representativa
+** E-mail: paixao.angellus@gmail.com
+
+Portfolio:
+** Os meus trabalhos ( Lendas urbanas, Um conto de natal, EcoAção Catch Cats)
+
+Experiências:
+** NAVE - JoSÉ Leite Lopes ( Formado em técnico de jogos digitais )
+** UniRio - BSI
+** Ibeu - Formado (Inglês)
+** GameJam (Global Game Jam - 2015 ( Jamvs, The Purple Sheep ), NAVE Game Jam - 2013 ( Catch Cats ))
+** MTI Studio - Gamificação e Sistemas Web
