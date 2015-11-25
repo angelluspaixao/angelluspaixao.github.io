@@ -1,31 +1,4 @@
 /* Config */
-/* IMPORT FONTS*/
-/*@font-face{
-	font-family: 'Avenir Bold';
-	src: url('../fonts/andes-bold-webfont.eot');
-	src: url('../fonts/andes-bold-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/andes-bold-webfont.woff') format('woff'),
-	     url('../fonts/andes-bold-webfont.ttf') format('truetype'),
-	     url('../fonts/andes-bold-webfont.svg#andes-bold-webfont') format('svg');
-}
-
-@font-face{
-	font-family: 'Avenir Demi';
-	src: url('../fonts/texgyreadventor-bold-webfont.eot');
-	src: url('../fonts/texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/texgyreadventor-bold-webfont.woff') format('woff'),
-	     url('../fonts/texgyreadventor-bold-webfont.ttf') format('truetype'),
-	     url('../fonts/texgyreadventor-bold-webfont.svg#texgyreadventor-bold-webfont') format('svg');
-}
-
-@font-face{
-	font-family: 'Avenir';
-	src: url('../fonts/texgyreadventor-bold-webfont.eot');
-	src: url('../fonts/texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/texgyreadventor-bold-webfont.woff') format('woff'),
-	     url('../fonts/texgyreadventor-bold-webfont.ttf') format('truetype'),
-	     url('../fonts/texgyreadventor-bold-webfont.svg#texgyreadventor-bold-webfont') format('svg');
-}*/
 
 *{
 	text-decoration: none;
@@ -41,8 +14,8 @@ header{
 	position: fixed;
 	z-index: 999;
 	width: 100%;
-	height: 150px;
-	/*background-color: red;*/
+	height: 100px;
+	background-color: white;
 }
 
 #nav{
@@ -94,17 +67,13 @@ header{
 
 section{
 	width: 100%;
-}
-
-.container-content{
-	width: 70%;
-	height: 100%;
-	margin: 0 auto;
-	background-color: pink;
+	height: auto;
+	padding-top: 100px;
+	clear: both;
 }
 
 #home{
-	background-color: red;
+	/*background-color: red;*/
 }
 
 #portfolio{
@@ -112,5 +81,90 @@ section{
 }
 
 #experiencias{
+	/*background-color: blue;*/
+}
+
+.container-content{
+	position: relative;
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	/*background-color: pink;*/
+}
+
+.apresentation{
+	width: 80%;
+	height: 500px;
+	margin-top: 120px;
+	margin-left: 10%;
+	float: left;
+	/*background-color: blue;*/
+}
+
+.text-apresentation, .cover-apresentation{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.text-apresentation{
+	/*background-color: red;*/
+	margin-top: 3%;
+}
+
+.text-apresentation h1{
+	font-size: 3em;
+	padding-bottom: 30px;
+}
+
+.text-apresentation p{
+	font-size: 2.2em;
+	padding: 2%;
+}
+
+.cover-apresentation{
+	/*background-color: yellow;*/
+}
+
+.cover-apresentation img{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.content-experience{
+	width: 100%;
+	height: auto;
+	float: left;
+	/*background-color: pink;*/
+}
+
+.item-experience{
+	width: 100%;
+	height: 250px;
+	margin: 20px 0;
 	background-color: blue;
+}
+
+.cover-experience{
+	width: 35%;
+	height: 100%;
+	background-color: red;
+}
+
+.cover-experience img{
+	width: 100%;
+	height: 100%;
+}
+
+.text-experience{
+	background-color: black;
+}
+
+.text-experience h2{
+	float: right;
+	margin-right: 5%;
+}
+
+.text-experience p{
+	
 }
