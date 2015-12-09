@@ -77,7 +77,7 @@ section{
 }
 
 #portfolio{
-	background-color: green;
+	/*background-color: green;*/
 }
 
 #experiencias{
@@ -184,4 +184,28 @@ section{
 	font-size: 1.1em;
 	margin-left: 5%;
 	margin-top: 5%;
+}
+
+
+/*PORTFOLIO*/
+.content-portfolio{
+	width: 100%;
+	height: auto;
+	float: left;
+	/*background-color: cyan;*/
+}
+
+.item-portfolio{
+	width: 30%;
+	height: 300px;
+	float: left;
+	background-color: magenta;
+}
+
+.cover-portfolio{
+	background-color: purple;
+}
+
+.text-portfolio{
+	background-color: navy;
 }
