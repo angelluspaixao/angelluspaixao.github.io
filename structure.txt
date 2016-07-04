@@ -1,28 +1,29 @@
-Site portfÛlio
+Site portf√≥lio
 
--Conte˙do:
-ïHome;
-ïPortfÛlio;
-ïExperiÍncias;
-ïContato;
+-Conte√∫do:
+‚Ä¢Home;
+‚Ä¢Portf√≥lio;
+‚Ä¢Experi√™ncias;
+‚Ä¢Contato;
 
 -Funcionalidades:
-ïResponsivo
-ïRolagem din‚mica (site todo acessÌvel na rolagem)
+‚Ä¢Responsivo
+‚Ä¢Rolagem din√¢mica (site todo acess√≠vel na rolagem)
 
 
 Home:
-** Menu -> Os links para a navegaÁ„o do meu portfolio
-** Um pequeno texto sobre o prÛprio (Falar de onde sou, meu nome, o que faÁo)
+** Menu -> Os links para a navega√ß√£o do meu portfolio
+** Um pequeno texto sobre o pr√≥prio (Falar de onde sou, meu nome, o que fa√ßo)
 ** Uma figura representativa
 ** E-mail: paixao.angellus@gmail.com
 
 Portfolio:
-** Os meus trabalhos ( Lendas urbanas, Um conto de natal, EcoAÁ„o Catch Cats)
+** Os meus trabalhos ( Lendas urbanas, Um conto de natal, EcoA√ß√£o e Catch Cats)
 
-ExperiÍncias:
-** NAVE - JoS… Leite Lopes ( Formado em tÈcnico de jogos digitais )
-** UniRio - BSI
-** Ibeu - Formado (InglÍs)
+Experi√™ncias:
+** NAVE - Jos√© Leite Lopes ( Formado em T√©cnico de Jogos Digitais )
+** Unirio - BSI
+** Ibeu - Formado (Ingl√™s)
 ** GameJam (Global Game Jam - 2015 ( Jamvs, The Purple Sheep ), NAVE Game Jam - 2013 ( Catch Cats ))
-** MTI Studio - GamificaÁ„o e Sistemas Web
+** MTI Studio - Gamifica√ß√£o e Sistemas Web
+** CREA-RJ - Est√°gio de Programa√ß√£o (Branco de dados SQL e sistemas em Java OO)
