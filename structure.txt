@@ -1,4 +1,4 @@
-Site portfólio
+﻿Site portfólio
 
 -Conteúdo:
 •Home;
@@ -18,7 +18,7 @@ Home:
 ** E-mail: paixao.angellus@gmail.com
 
 Portfolio:
-** Os meus trabalhos ( Lendas urbanas, Um conto de natal, EcoAção e Catch Cats)
+** Os meus trabalhos ( Lendas urbanas, Um conto de natal, EcoAção, Catch Cats, etc.)
 
 Experiências:
 ** NAVE - José Leite Lopes ( Formado em Técnico de Jogos Digitais )
@@ -26,4 +26,4 @@ Experiências:
 ** Ibeu - Formado (Inglês)
 ** GameJam (Global Game Jam - 2015 ( Jamvs, The Purple Sheep ), NAVE Game Jam - 2013 ( Catch Cats ))
 ** MTI Studio - Gamificação e Sistemas Web
-** CREA-RJ - Estágio de Programação (Branco de dados SQL e sistemas em Java OO)
+** CREA-RJ - Estágio de Programação (Branco de dados SQL, sistemas em Java OO, API RESTful, Angular JS, Ionic)
