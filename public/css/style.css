@@ -1,4 +1,4 @@
-/* Config */
+/* CONFIG */
 
 *{
 	text-decoration: none;
@@ -18,6 +18,26 @@ header{
 	background-color: white;
 }
 
+section{
+	width: 100%;
+	height: auto;
+	padding-top: 100px;
+	clear: both;
+}
+
+#home{
+	/* background-color: red; */
+	padding-bottom: 50px;
+}
+
+#portfolio{
+	/*background-color: green;*/
+}
+
+#experiencias{
+	/*background-color: blue;*/
+}
+
 #nav{
 	width: 70%;
 	height: 100%;
@@ -30,9 +50,25 @@ header{
 }
 
 #nav h2{
-	font-size: 1.3em;
-	color: #c6c6c6;
+	font-size: 1.2em;
+	color: #888888;
 	margin-top: -6px;
+	margin-left: 4.5%;
+}
+
+.brand{
+	margin-top: 1%;
+}
+
+.container-content{
+	position: relative;
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.navbar{
+	font-size: 1.5em;
 }
 
 .brand, .navbar{
@@ -42,18 +78,9 @@ header{
 	float: left;
 }
 
-.brand{
-	/*background-color: yellow;*/
-}
-.navbar{
-	/*background-color: green;*/
-	font-size: 1.5em;
-}
-
 .navbar ul{
 	float: right;
-	margin-right: 5%;
-	margin-top: 25px;
+	margin: 25px 5% 5px 0px;
 }
 
 .navbar ul li{
@@ -62,44 +89,39 @@ header{
 }
 
 .navbar ul li:hover, .navbar ul li:active{
-	border-bottom: solid 2px #000;
+	border-bottom: solid 1px #000;
 }
 
-section{
-	width: 100%;
-	height: auto;
-	padding-top: 100px;
-	clear: both;
-}
-
-#home{
-	/*background-color: red;*/
-}
-
-#portfolio{
-	/*background-color: green;*/
-}
-
-#experiencias{
-	/*background-color: blue;*/
-}
-
-.container-content{
-	position: relative;
-	width: 70%;
-	height: 100%;
-	margin: 0 auto;
-	/*background-color: pink;*/
-}
 
 /*APRESENTAÇÃO*/
+
 .apresentation{
 	width: 80%;
 	height: 500px;
-	margin-top: 120px;
+	margin-top: 30px;
 	margin-left: 10%;
 	float: left;
-	/*background-color: blue;*/
+}
+
+.cover-apresentation{
+}
+
+.cover-apresentation img{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.text-apresentation{
+	margin-top: 1%;
+}
+
+.text-apresentation h2{
+	font-size: 2.5em;
+	padding-bottom: 30px;
+}
+
+.text-apresentation p{
+	font-size: 2em;
 }
 
 .text-apresentation, .cover-apresentation{
@@ -108,44 +130,14 @@ section{
 	float: left;
 }
 
-.text-apresentation{
-	/*background-color: red;*/
-	margin-top: 3%;
-}
-
-.text-apresentation h1{
-	font-size: 3em;
-	padding-bottom: 30px;
-}
-
-.text-apresentation p{
-	font-size: 2.2em;
-	padding: 2%;
-}
-
-.cover-apresentation{
-	/*background-color: yellow;*/
-}
-
-.cover-apresentation img{
-	width: 95%;
-	margin: 0 auto;
-}
-
 
 /*EXPERIÊNCIAS*/
+
 .content-experience{
 	width: 100%;
 	height: auto;
 	float: left;
 	/*background-color: pink;*/
-}
-
-.item-experience{
-	width: 100%;
-	height: 250px;
-	margin: 20px 0;
-	/*background-color: blue;*/
 }
 
 .cover-experience{
@@ -158,25 +150,34 @@ section{
 .cover-experience img{
 	width: 100%;
 	height: 100%;
+	border: #000 1px solid;
+}
+
+.item-experience{
+	width: 100%;
+	height: 250px;
+	margin: 20px 0;
+	/*background-color: blue;*/
 }
 
 .text-experience{
 	width: 65%;
 	height: 100%;
+	margin-top: 1%;
 	float:  left;
 	/*background-color: black;*/
 }
 
-.text-experience h2{
+.text-experience h3{
 	font-weight: bold;
-	font-size: 2em;
-	margin-left: 8%;
+	font-size: 1.6em;
+	margin-left: 5%;
 }
 
-.text-experience h3{
+.text-experience h4{
 	font-weight: bolder;
-	font-size: 1.3em;
-	margin-left: 8%;
+	font-size: 1.2em;
+	margin-left: 5%;
 }
 
 .text-experience p{
@@ -189,23 +190,17 @@ section{
 
 /*PORTFOLIO*/
 .content-portfolio{
-	width: 100%;
-	height: auto;
-	float: left;
-	/*background-color: cyan;*/
+
 }
 
 .item-portfolio{
-	width: 30%;
-	height: 300px;
-	float: left;
-	background-color: magenta;
+
 }
 
 .cover-portfolio{
-	background-color: purple;
+
 }
 
 .text-portfolio{
-	background-color: navy;
+
 }
