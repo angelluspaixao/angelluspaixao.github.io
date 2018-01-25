@@ -26,7 +26,6 @@ section{
 }
 
 #home{
-	/* background-color: red; */
 	padding-bottom: 50px;
 }
 
@@ -137,14 +136,12 @@ section{
 	width: 100%;
 	height: auto;
 	float: left;
-	/*background-color: pink;*/
 }
 
 .cover-experience{
 	width: 35%;
 	height: 100%;
 	float:  left;
-	/*background-color: red;*/
 }
 
 .cover-experience img{
@@ -157,7 +154,6 @@ section{
 	width: 100%;
 	height: 250px;
 	margin: 20px 0;
-	/*background-color: blue;*/
 }
 
 .text-experience{
@@ -165,7 +161,6 @@ section{
 	height: 100%;
 	margin-top: 1%;
 	float:  left;
-	/*background-color: black;*/
 }
 
 .text-experience h3{
@@ -189,36 +184,27 @@ section{
 
 
 /*PORTFOLIO*/
+
 .content-portfolio{
 	width: 100%;
 	height: auto;
 	float: left;
 }
 
-.item-portfolio{
-
+.container-portfolio{
+	padding: 2px 16px;
 }
 
 .cover-portfolio{
-
+	width: 100%;
 }
 
-.text-portfolio{
-	background-color: navy;
-}
-
-.card {
-    /* Add shadows to create the "card" effect */
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.item-portfolio{
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-    padding: 2px 16px;
+.item-portfolio:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
