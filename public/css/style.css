@@ -189,22 +189,33 @@ section{
 	width: 100%;
 	height: auto;
 	float: left;
+	margin-bottom: 5%;
 }
 
 .container-portfolio{
-	padding: 2px 16px;
+	padding: 6px 16px;
 }
 
 .cover-portfolio{
 	width: 100%;
+	/* border-radius: 5px 5px 0 0; */
 }
 
 .item-portfolio{
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+	transition: 0.3s;
+	/* border-radius: 5px; */
+}
+
+.item-portfolio-hd {
+	height: 220px;
 }
 
 .item-portfolio:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+}
+
+.espaco {
+	height: 2%;
 }
