@@ -25,17 +25,17 @@ section{
 	clear: both;
 }
 
-#home{
-	padding-bottom: 50px;
+/* #home{
+	
 }
 
 #portfolio{
-	/*background-color: green;*/
+	
 }
 
 #experiencias{
-	/*background-color: blue;*/
-}
+	
+} */
 
 #nav{
 	width: 70%;
@@ -102,8 +102,8 @@ section{
 	float: left;
 }
 
-.cover-apresentation{
-}
+/* .cover-apresentation{
+} */
 
 .cover-apresentation img{
 	width: 95%;
