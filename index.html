@@ -204,13 +204,14 @@
 					</h2>
 
 					<div class="content-portfolio">
-						<!-- SESSÃO 1 -->
+						
+						<!-- Images used to open the lightbox -->
 						<div class="row">
-
+							
 							<!-- CARD 1 -->
 							<div class="col-md-4">
 									<div class="item-portfolio">
-										<img src="public/img/portfolio/cover-pf-09.webp" alt="Avatar" class="cover-portfolio item-portfolio-hd">
+										<img src="public/img/portfolio/cover-pf-09.webp" alt="Avatar" onclick="openModal();currentSlide(1)" class="cover-portfolio item-portfolio-hd">
 										<div class="container-portfolio">
 											<h4><b>App Crea-RJ</b></h4>
 											<h5>2017</h5>
@@ -222,7 +223,7 @@
 							<!-- CARD 2 -->
 							<div class="col-md-4">
 								<div class="item-portfolio">
-									<img src="public/img/portfolio/cover-pf-08.png" alt="Avatar" class="cover-portfolio item-portfolio-hd">
+									<img src="public/img/portfolio/cover-pf-08.png" alt="Avatar" onclick="openModal();currentSlide(2)" class="cover-portfolio item-portfolio-hd">
 									<div class="container-portfolio">
 										<h4><b>Serviços Crea-RJ</b></h4>
 										<h5>2017</h5>
@@ -234,7 +235,7 @@
 							<!-- CARD 3 -->
 							<div class="col-md-4">
 								<div class="item-portfolio">
-									<img src="public/img/portfolio/cover-pf-07.jpeg" alt="Avatar" class="cover-portfolio">
+									<img src="public/img/portfolio/cover-pf-07.jpeg" alt="Avatar" onclick="openModal();currentSlide(3)" class="cover-portfolio">
 									<div class="container-portfolio">
 										<h4><b>High Resolution 3</b></h4>
 										<h5>2016</h5>
@@ -254,7 +255,7 @@
 								<!-- CARD 4 -->
 								<div class="col-md-4">
 									<div class="item-portfolio">
-										<img src="public/img/portfolio/cover-pf-06.jpeg" alt="Avatar" class="cover-portfolio">
+										<img src="public/img/portfolio/cover-pf-06.jpeg" alt="Avatar" onclick="openModal();currentSlide(4)" class="cover-portfolio">
 										<div class="container-portfolio">
 											<h4><b>Mind Flow 2</b></h4>
 											<h5>2015</h5>
@@ -266,7 +267,7 @@
 								<!-- CARD 5 -->
 								<div class="col-md-4">
 									<div class="item-portfolio">
-										<img src="public/img/portfolio/cover-pf-05.jpeg" alt="Avatar" class="cover-portfolio">
+										<img src="public/img/portfolio/cover-pf-05.jpeg" alt="Avatar" onclick="openModal();currentSlide(5)" class="cover-portfolio">
 										<div class="container-portfolio">
 											<h4><b>Magic Minds 1</b></h4>
 											<h5>2015</h5>
@@ -278,7 +279,7 @@
 								<!-- CARD 6 -->
 								<div class="col-md-4">
 									<div class="item-portfolio">
-										<img src="public/img/portfolio/cover-pf-01.png" alt="Avatar" class="cover-portfolio">
+										<img src="public/img/portfolio/cover-pf-01.png" alt="Avatar" onclick="openModal();currentSlide(6)" class="cover-portfolio">
 										<div class="container-portfolio">
 											<h4><b>Lendas Urbanas</b></h4>
 											<h5>2014</h5>
@@ -298,7 +299,7 @@
 								<!-- CARD 7 -->
 								<div class="col-md-4">
 									<div class="item-portfolio">
-										<img src="public/img/portfolio/cover-pf-03.png" alt="Avatar" class="cover-portfolio">
+										<img src="public/img/portfolio/cover-pf-03.png" alt="Avatar" onclick="openModal();currentSlide(7)" class="cover-portfolio">
 										<div class="container-portfolio">
 											<h4><b>EcoAção</b></h4>
 											<h5>2014</h5>
@@ -310,7 +311,7 @@
 								<!-- CARD 8 -->
 								<div class="col-md-4">
 									<div class="item-portfolio">
-										<img src="public/img/portfolio/cover-pf-02.jpg" alt="Avatar" class="cover-portfolio">
+										<img src="public/img/portfolio/cover-pf-02.jpg" alt="Avatar" onclick="openModal();currentSlide(8)" class="cover-portfolio">
 										<div class="container-portfolio">
 											<h4><b>Catch Cats</b></h4>
 											<h5>2013</h5>
@@ -322,7 +323,7 @@
 								<!-- CARD 9 -->
 								<div class="col-md-4">
 									<div class="item-portfolio">
-										<img src="public/img/portfolio/cover-pf-04.jpg" alt="Avatar" class="cover-portfolio">
+										<img src="public/img/portfolio/cover-pf-04.jpg" alt="Avatar" onclick="openModal();currentSlide(9)" class="cover-portfolio">
 										<div class="container-portfolio">
 											<h4><b>Um Conto de Natal</b></h4>
 											<h5>2012</h5>
@@ -332,6 +333,111 @@
 								</div>
 	
 							</div>
+
+					</div>
+
+					<!-- The Modal/Lightbox -->
+					<div id="myModal" class="modal">
+						<span class="close cursor" onclick="closeModal()">&times;</span>
+						<div class="modal-content">
+					
+							<div class="mySlides">
+								<div class="numbertext">1 / 9</div>
+								<img src="public/img/portfolio/cover-pf-09.webp" class="cover-lightbox">
+							</div>
+						
+							<div class="mySlides">
+								<div class="numbertext">2 / 9</div>
+								<img src="public/img/portfolio/cover-pf-08.png" style="width:100%">
+							</div>
+						
+							<div class="mySlides">
+								<div class="numbertext">3 / 9</div>
+								<img src="public/img/portfolio/cover-pf-07.jpeg" style="width:100%">
+							</div>
+						
+							<div class="mySlides">
+								<div class="numbertext">4 / 9</div>
+								<img src="public/img/portfolio/cover-pf-06.jpeg" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<div class="numbertext">5 / 9</div>
+								<img src="public/img/portfolio/cover-pf-05.jpeg" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<div class="numbertext">6 / 9</div>
+								<img src="public/img/portfolio/cover-pf-04.jpg" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<div class="numbertext">7 / 9</div>
+								<img src="public/img/portfolio/cover-pf-03.png" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<div class="numbertext">8 / 9</div>
+								<img src="public/img/portfolio/cover-pf-02.jpg" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<div class="numbertext">9 / 9</div>
+								<img src="public/img/portfolio/cover-pf-01.png" style="width:100%">
+							</div>
+						
+							<!-- Next/previous controls -->
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						
+							<!-- Caption text -->
+							<div class="caption-container">
+								<p id="caption"></p>
+							</div>
+						
+							<div class="row">
+								<!-- Thumbnail image controls -->
+								<div class="col-md-1">
+									<img class="demo" src="public/img/portfolio/cover-pf-09.webp" onclick="currentSlide(1)" alt="App Crea-RJ">
+								</div>
+							
+								<div class="col-md-1">
+									<img class="demo" src="public/img/portfolio/cover-pf-08.png" onclick="currentSlide(2)" alt="Serviços Crea-RJ">
+								</div>
+							
+								<div class="col-md-1">
+									<img class="demo" src="public/img/portfolio/cover-pf-07.jpeg" onclick="currentSlide(3)" alt="High Resolution 3">
+								</div>
+							
+								<div class="col-md-1">
+									<img class="demo" src="public/img/portfolio/cover-pf-06.jpeg" onclick="currentSlide(4)" alt="Mind Flow 2">
+								</div>
+
+								<div class="col-md-1">
+									<img class="demo" src="public/img/portfolio/cover-pf-05.jpeg" onclick="currentSlide(5)" alt="Magic Minds 1">
+								</div>
+							
+								<div class="col-md-1">
+									<img class="demo" src="public/img/portfolio/cover-pf-04.jpg" onclick="currentSlide(6)" alt="Lendas Urbanas">
+								</div>
+							
+								<div class="col-md-1">
+									<img class="demo" src="public/img/portfolio/cover-pf-03.png" onclick="currentSlide(7)" alt="EcoAção">
+								</div>
+							
+								<div class="col-md-1">
+									<img class="demo" src="public/img/portfolio/cover-pf-02.jpg" onclick="currentSlide(8)" alt="Catch Cats">
+								</div>
+
+								<div class="col-md-1">
+									<img class="demo" src="public/img/portfolio/cover-pf-01.png" onclick="currentSlide(9)" alt="Um Conto de Natal">
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
 					</div>
 				</div>
 			</section>
