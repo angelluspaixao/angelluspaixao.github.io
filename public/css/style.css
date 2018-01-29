@@ -231,7 +231,7 @@ section{
 /* TESTES LIGHTBOX */
 
 .row > .column {
-	padding: 0 8px;
+	padding: 30px;
   }
   
   .row:after {
@@ -246,8 +246,8 @@ section{
   
   /* Create four equal columns that floats next to eachother */
   .column {
-	float: left;
-	width: 25%;
+	/* float: left;
+	width: 25%; */
   }
   
   /* The Modal (background) */
@@ -347,6 +347,7 @@ section{
   
   img.demo {
 	opacity: 0.6;
+	width: 100%;
   }
   
   .active,
